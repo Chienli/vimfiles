@@ -60,6 +60,7 @@ Plug 'ap/vim-css-color'
 Plug 'vim-airline/vim-airline' 
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 
