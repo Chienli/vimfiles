@@ -10,7 +10,9 @@ set splitright
 set ruler
 set linebreak 
 set showcmd
+set noshowmode
 set scrolloff=3
+let g:airline_theme='deus'
  
 
 " search start
@@ -51,8 +53,17 @@ vmap <S-Tab> <
 
 " key mapping end
 
+" pluging start
 
+call plug#begin('~/.vim/plugged')
 
+Plug 'ap/vim-css-color'
+Plug 'vim-airline/vim-airline' 
+Plug 'vim-airline/vim-airline-themes'
+
+call plug#end()
+
+" pluging end
 
 
 
