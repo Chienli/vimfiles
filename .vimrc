@@ -13,6 +13,7 @@ set showcmd
 set noshowmode
 set scrolloff=3
 let g:airline_theme='deus'
+let g:airline_powerline_fonts = 1
  
 
 " search start
