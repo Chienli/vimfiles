@@ -64,6 +64,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
+Plug 'tomtom/tcomment_vim'
 
 call plug#end()
 
